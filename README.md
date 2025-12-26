@@ -151,6 +151,42 @@ After the DAG runs successfully:
 ├── docker-compose.yml
 └── README.md
 ```
+## 🖥️ Airflow Interfaces
+
+This project provides the standard **Airflow Web UI** interfaces to monitor and manage your pipeline.
+
+### 1️⃣ Login Page
+
+* Use this page to log into Airflow with the admin user you created.
+* Default credentials:
+
+```
+Username: airflow
+Password: airflow
+```
+
+![Airflow Login](https://raw.githubusercontent.com/ton-repo/screenshots/login.png)
+
+---
+
+### 2️⃣ Dashboard (DAGs View)
+
+* Shows all available DAGs, including `bigdata_pipeline_complete`.
+* Allows you to **activate, pause, and trigger DAGs**.
+
+![Airflow Dashboard](https://raw.githubusercontent.com/ton-repo/screenshots/dashboard.png)
+
+---
+
+### 3️⃣ Graph View (Execution Flow)
+
+* Visual representation of the DAG workflow.
+* Shows **task dependencies** and **execution status**.
+* Helps monitor the ETL pipeline step by step.
+
+![Airflow Graph View](https://raw.githubusercontent.com/ton-repo/screenshots/graph.png)
+
+---
 
 ---
 

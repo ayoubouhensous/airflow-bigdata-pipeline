@@ -165,7 +165,7 @@ Username: airflow
 Password: airflow
 ```
 
-![Airflow Login](https://raw.githubusercontent.com/ton-repo/screenshots/login.png)
+![Airflow Login](screenshot/login.png)
 
 ---
 
@@ -174,7 +174,7 @@ Password: airflow
 * Shows all available DAGs, including `bigdata_pipeline_complete`.
 * Allows you to **activate, pause, and trigger DAGs**.
 
-![Airflow Dashboard](https://raw.githubusercontent.com/ton-repo/screenshots/dashboard.png)
+![Airflow Dashboard](screenshot/dashboard.png)
 
 ---
 
@@ -184,7 +184,7 @@ Password: airflow
 * Shows **task dependencies** and **execution status**.
 * Helps monitor the ETL pipeline step by step.
 
-![Airflow Graph View](https://raw.githubusercontent.com/ton-repo/screenshots/graph.png)
+![Airflow Graph View](screenshot/workflow.png)
 
 ---
 
